@@ -1,0 +1,33 @@
+.fruit_container{
+text-align: center;
+padding: 3rem;
+display: grid;
+grid-template-rows: repeat(1, 1fr);
+background-color: #ffffff;
+color: rgb(4, 9, 14);
+border-radius: 20px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.fruit_container:hover{
+    background-color: #ffffff9d;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.fruit_container .img_shop{
+    width: 80%;
+    height: 95%;
+    object-fit: contain;
+    margin-left: 1.5rem;
+}
+
+.fruit_container .container_sleep{
+    text-align: start;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_last .buttonshop {
+    background-color: rgb(15, 0, 223);
+    font-size: 15px;
+    margin-top: 2.7rem;
+}

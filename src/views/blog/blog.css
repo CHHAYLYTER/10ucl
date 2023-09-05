@@ -1,0 +1,8 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(500px, auto);
+    gap: 100px;
+    color: aliceblue;
+    margin: 4rem;
+}
