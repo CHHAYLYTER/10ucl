@@ -1,8 +1,10 @@
 import React from "react";
 import Home from "../views/home/home"
-import Shop from "../views/shop/shop";
 import About from "../views/about/about";
-import Blog from "../views/blog/blog";
+import Popular from "../views/popular/popular";
+import Order from "../views/order/order";
+import Blogs from "../views/blogs/blogs";
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -10,9 +12,11 @@ function RouteComponent() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/shop" element={<Shop />} />
       <Route path="/about" element={<About />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/popular" element={<Popular />} />
+      <Route path="/order" element={<Order />} />
+      <Route path="/blogs" element={<Blogs />} />
+
     </Routes>
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import './blog.css'
+import './blogs.css'
 import CardComponent from '../../component/Card'
 import { DummyData } from '../../data/data'
 
 
-const Blog = () => {
+const Blogs = () => {
   return (
     <div className='grid'>
           {DummyData.map((Dymmy) =>  {
@@ -17,4 +17,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Blogs
