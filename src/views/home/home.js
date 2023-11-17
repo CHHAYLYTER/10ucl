@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './home.css'
 
 const Home = () => {
@@ -13,5 +13,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home

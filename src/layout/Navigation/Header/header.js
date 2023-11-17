@@ -13,6 +13,7 @@ const Header = () => {
         <a href="/popular">Popular</a>
         <a href="/order">Order</a>
         <a href="/blogs">Blogs</a>
+        <a href='/bobo'>Bobo</a>
     </nav>
 
 </header>

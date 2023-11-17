@@ -13,6 +13,6 @@ const CardComponent = ({ user }) => {
         <p>{user.desc}</p>
       </div>
     </div>
-  );
-};
-export default CardComponent;
+  )
+}
+export default CardComponent

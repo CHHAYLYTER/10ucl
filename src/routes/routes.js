@@ -4,9 +4,10 @@ import About from "../views/about/about";
 import Popular from "../views/popular/popular";
 import Order from "../views/order/order";
 import Blogs from "../views/blogs/blogs";
+import BoBo from "../views/BoBo/bobo";
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function RouteComponent() {
   return (
@@ -16,6 +17,7 @@ function RouteComponent() {
       <Route path="/popular" element={<Popular />} />
       <Route path="/order" element={<Order />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/fsalkfhsdal" element={<BoBo />} />
 
     </Routes>
   );
